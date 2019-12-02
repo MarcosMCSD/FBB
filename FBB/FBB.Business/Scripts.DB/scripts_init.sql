@@ -23,7 +23,6 @@ CREATE TABLE `aspnetusers` (
 CREATE TABLE `aspnetuserroles` (
   `UserId` varchar(128) CHARACTER SET utf8 NOT NULL,
   `RoleId` varchar(128) CHARACTER SET utf8 NOT NULL,
-  `EntityId` varchar(36) NOT NULL DEFAULT '',
   PRIMARY KEY (`UserId`,`RoleId`,`EntityId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
