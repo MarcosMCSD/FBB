@@ -5,10 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Web", "FBB.Web\FBB.Web.csproj", "{08600F23-FE9C-48A2-930F-C2D5D35704E3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBB.Scripts", "FBB.Scripts", "{9514891D-B822-4C24-AB90-7A8F4C6F2E28}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Desktop\scripts init.sql = ..\..\..\..\..\Desktop\scripts init.sql
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Business", "FBB.Business\FBB.Business.csproj", "{D06A1FE5-587B-414A-80EF-9E623034A8AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +17,10 @@ Global
 		{08600F23-FE9C-48A2-930F-C2D5D35704E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08600F23-FE9C-48A2-930F-C2D5D35704E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08600F23-FE9C-48A2-930F-C2D5D35704E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06A1FE5-587B-414A-80EF-9E623034A8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06A1FE5-587B-414A-80EF-9E623034A8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06A1FE5-587B-414A-80EF-9E623034A8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06A1FE5-587B-414A-80EF-9E623034A8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
