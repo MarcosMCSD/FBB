@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Web", "FBB.Web\FBB.Web.csproj", "{08600F23-FE9C-48A2-930F-C2D5D35704E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBB.Scripts", "FBB.Scripts", "{9514891D-B822-4C24-AB90-7A8F4C6F2E28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
