@@ -86,3 +86,7 @@ C:\Workspaces\FBB\FBB\FBB.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Workspaces\FBB\FBB\FBB.Web\obj\Debug\FBB.Web.csprojResolveAssemblyReference.cache
 C:\Workspaces\FBB\FBB\FBB.Web\obj\Debug\FBB.Web.dll
 C:\Workspaces\FBB\FBB\FBB.Web\obj\Debug\FBB.Web.pdb
+C:\Workspaces\FBB\FBB\FBB.Web\bin\MySql.Data.dll
+C:\Workspaces\FBB\FBB\FBB.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Workspaces\FBB\FBB\FBB.Web\bin\MySql.Data.xml
+C:\Workspaces\FBB\FBB\FBB.Web\bin\MySql.Data.Entity.EF6.xml

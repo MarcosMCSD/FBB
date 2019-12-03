@@ -12,3 +12,17 @@ C:\Users\andrecorreia\source\repos\FBB\FBB\FBB.Business\bin\Debug\MySql.Data.xml
 C:\Users\andrecorreia\source\repos\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.csprojResolveAssemblyReference.cache
 C:\Users\andrecorreia\source\repos\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.dll
 C:\Users\andrecorreia\source\repos\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.pdb
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\FBB.Business.dll.config
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\FBB.Business.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\FBB.Business.pdb
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\EntityFramework.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\MySql.Data.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\MySql.Data.Entity.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\EntityFramework.xml
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Workspaces\FBB\FBB\FBB.Business\bin\Debug\MySql.Data.xml
+C:\Workspaces\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.csprojResolveAssemblyReference.cache
+C:\Workspaces\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.dll
+C:\Workspaces\FBB\FBB\FBB.Business\obj\Debug\FBB.Business.pdb
