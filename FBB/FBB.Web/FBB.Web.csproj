@@ -220,6 +220,12 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Libraries\Bootstrap\theme.css">
+      <DependentUpon>theme.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Libraries\Bootstrap\theme.min.css">
+      <DependentUpon>theme.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -231,6 +237,99 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Libraries\Bootstrap\bootstrap-grid.scss" />
+    <Content Include="Content\Libraries\Bootstrap\bootstrap-reboot.scss" />
+    <Content Include="Content\Libraries\Bootstrap\theme.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_alert.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_badge.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_buttons.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_caret.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_deprecate.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_float.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_forms.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_gradients.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_grid.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_hover.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_image.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_list-group.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_lists.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_pagination.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_resize.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_size.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_table-row.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_text-hide.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_transition.scss" />
+    <Content Include="Content\Libraries\Bootstrap\mixins\_visibility.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_align.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_background.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_borders.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_clearfix.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_display.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_embed.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_flex.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_float.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_overflow.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_position.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_shadows.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_sizing.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_spacing.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_stretched-link.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_text.scss" />
+    <Content Include="Content\Libraries\Bootstrap\utilities\_visibility.scss" />
+    <Content Include="Content\Libraries\Bootstrap\vendor\_rfs.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_alert.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_badge.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_breadcrumb.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_button-group.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_buttons.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_card.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_carousel.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_close.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_code.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_custom-forms.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_dropdown.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_forms.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_functions.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_grid.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_images.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_input-group.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_jumbotron.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_list-group.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_media.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_mixins.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_modal.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_nav.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_navbar.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_pagination.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_popover.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_print.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_progress.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_reboot.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_root.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_spinners.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_tables.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_toasts.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_tooltip.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_transitions.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_type.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_utilities.scss" />
+    <Content Include="Content\Libraries\Bootstrap\_variables.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -239,6 +338,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Libraries\Bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
