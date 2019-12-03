@@ -1,2 +1,7 @@
-
 FBB/.vs/FBB/v14/.suo
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
