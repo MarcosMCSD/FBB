@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Web", "FBB.Web\FBB.Web.csproj", "{08600F23-FE9C-48A2-930F-C2D5D35704E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D06A1FE5-587B-414A-80EF-9E623034A8AA} = {D06A1FE5-587B-414A-80EF-9E623034A8AA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBB.Business", "FBB.Business\FBB.Business.csproj", "{D06A1FE5-587B-414A-80EF-9E623034A8AA}"
 EndProject
